@@ -1,7 +1,9 @@
 Background
+
 MelbourneGig is a start-up incubated at Monash University to provide services to performers
 in the retail industry. The team would like to hire us as the Analytics Engineers. The job
 includes:
+
 ● Analysing the retail sales data using big data tools.
 ● Developing machine learning models to predict future sales.
 ● Integrating the models into the streaming platform using Apache Kafka and Apache
@@ -134,7 +136,7 @@ Unix timestamp format.
 c. The 'value' column should be in JSON format.
 Save your code in Task2.ipynb
 
-3. Consuming data using Kafka (12%)
+<br>3. Consuming data using Kafka (12%)</br>
 In this task, we will implement an Apache Kafka consumer to consume the data from task
 2.10.
 Important:
@@ -144,4 +146,4 @@ from task 2.10.
 Draw a line chart using the data you received. Use the timestamp (the key of the data you
 received) as the x-axis and the average weekly sales of each type of store as the y-axis. The
 plot should be updated after each time you receive a new batch of data.
-Save your code in Task3.ipynb
+- Save your code in Task3.ipynb
