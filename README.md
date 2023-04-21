@@ -62,6 +62,7 @@ the data from the Kafka stream and visualise it.
 Detailed description of the tasks:
 
 -----------------------------1. Producing the data (8%)---------------------------------
+
 In this task, we will implement one Apache Kafka producer to simulate the real-time data
 transfer from one repository to another.
 
@@ -87,6 +88,7 @@ without changing to any datetime format.
 - Save your code in Task1.ipynb
 
 -----------2. Streaming application using Spark Structured Streaming (40%)------------------
+
 In this task, we will implement Spark Structured Streaming to consume the data from task 1
 and perform predictive analytics.
 Important:
@@ -143,6 +145,7 @@ c. The 'value' column should be in JSON format.
 Save your code in Task2.ipynb
 
 --------------------3. Consuming data using Kafka (12%)-----------------------
+
 In this task, we will implement an Apache Kafka consumer to consume the data from task
 2.10.
 Important:
