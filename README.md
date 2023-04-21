@@ -1,4 +1,6 @@
-Background
+------------------------------------------------------------------------------------------
+**Background**
+-------------------------------------------------------------------------------------------
 
 MelbourneGig is a start-up incubated at Monash University to provide services to performers
 in the retail industry. The team would like to hire us as the Analytics Engineers. The job
@@ -34,7 +36,9 @@ https://www.kaggle.com/datasets/manjeetsingh/retaildataset.
 3. The provided model, sales_estimation_pipeline_model, is a simplified version to
 predict the current weekly sales of the store.
 
-What is required to achieve:
+-----------------------------------------------------------------------------------------------
+**What is required to achieve:**
+-----------------------------------------------------------------------------------------------
 
 The MelbourneGig company requires a proof-of-concept application to ingest the new count
 data and predict the potential sales data. To achieve this, it is required to simulate the streaming
@@ -42,7 +46,9 @@ data production using Kafka, and then build a streaming application that ingests
 integrates the machine learning model (provided to you) to the weekly sales to predict the
 current week’s sales.
 
-Tasks:
+----------------------------------------------------------------------------------------------------
+**Tasks:**
+----------------------------------------------------------------------------------------------------
 
 Three main tasks - producing streaming data, processing
 the streaming data, and visualising the data.
@@ -55,7 +61,8 @@ the data from the Kafka stream and visualise it.
 
 Detailed description of the tasks:
 
-1. Producing the data (8%)
+-----------------------------1. Producing the data (8%)---------------------------------
+
 In this task, we will implement one Apache Kafka producer to simulate the real-time data
 transfer from one repository to another.
 
@@ -80,7 +87,8 @@ data sent in one batch (every 5 seconds).
 without changing to any datetime format.
 - Save your code in Task1.ipynb
 
-2. Streaming application using Spark Structured Streaming (40%)
+-----------2. Streaming application using Spark Structured Streaming (40%)------------------
+
 In this task, we will implement Spark Structured Streaming to consume the data from task 1
 and perform predictive analytics.
 Important:
@@ -136,7 +144,8 @@ Unix timestamp format.
 c. The 'value' column should be in JSON format.
 Save your code in Task2.ipynb
 
-<br>3. Consuming data using Kafka (12%)</br>
+--------------------3. Consuming data using Kafka (12%)-----------------------
+
 In this task, we will implement an Apache Kafka consumer to consume the data from task
 2.10.
 Important:
