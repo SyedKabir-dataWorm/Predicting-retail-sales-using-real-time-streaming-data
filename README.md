@@ -7,7 +7,9 @@ in the retail industry. The team would like to hire us as the Analytics Engineer
 includes:
 
 ● Analysing the retail sales data using big data tools.
+
 ● Developing machine learning models to predict future sales.
+
 ● Integrating the models into the streaming platform using Apache Kafka and Apache
 
 Spark Streaming to perform prediction to predict the real-time sales data in the
